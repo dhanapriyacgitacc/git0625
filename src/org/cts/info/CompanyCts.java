@@ -11,7 +11,6 @@ public class CompanyCts {
 	public void cmpName() {
 		System.out.println("Company name : CTS");
 	}
-
 	public static void main(String[] args) {
 		CompanyCts c1 = new CompanyCts();
 		c1.cmpID();
@@ -25,5 +24,7 @@ public class CompanyCts {
 		Company c = new Company();
 		c.cmpID();
 		c.cmpName();
+	
+		
 	}
 }
